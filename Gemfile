@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
 
 gem "sinatra"
 gem "activerecord"
@@ -13,5 +13,5 @@ gem "rake"
 group :development do
   gem "shotgun"
   gem "tux"
-  gem "sqlite3"
+  # gem "sqlite3"
 end

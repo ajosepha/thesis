@@ -15,7 +15,7 @@ module Name
     end
 
     #database
-    set :database, "sqlite3:///database.db"
+    # set :database, "sqlite3:///database.db"
 
     #filters
 
